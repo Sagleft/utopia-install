@@ -9,4 +9,4 @@ rm -rf utopia-latest.amd64.deb
 
 echo "creating new account.."
 export XDG_RUNTIME_DIR=/tmp/runtime-root
-/opt/utopia/messenger/utopia --headless --create --db=./account.db --pwd=password --configPath=./utopia.cfg
+/opt/utopia/messenger/utopia --headless --create --db=/home/account.db --pwd=password --configPath=/home/utopia.cfg
